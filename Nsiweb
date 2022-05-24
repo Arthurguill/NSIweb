@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Index NSI</title>
+<link rel="stylesheet" href="Styles/style.css">
+<meta charset="UTF-8">
+<script>
+
+function myFunction() {
+ document.getElementById("titre_page").style.color = "yellow";
+}
+
+</script>
+</head>
+<body>
+
+<h1 id="titre_page">Index NSI 1ere</h1>
+
+<p>Page d'accueil<br>
+
+<button onclick="myFunction()">tests</button>
+
+<ul>
+<li>1er élément</li>
+<li>2eme élément</li>
+</ul>
+
+<table>
+ <tr style="color:red;">
+<th>Company</th>
+<th>Contact</th>
+<th>Country</th>
+ </tr>
+ <tr>
+<td>Alfreds Futterkiste</td>
+<td>Maria Anders</td>
+<td style="color:red;">Germany</td>
+ </tr>
+ <tr>
+<td>Centro comercial Moctezuma</td>
+<td>Francisco Chang</td>
+<td>Mexico</td>
+ </tr>
+</table>
+</body>
+
+</html>
